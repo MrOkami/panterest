@@ -136,8 +136,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -173,7 +176,35 @@
       <option name="project" value="LOCAL" />
       <updated>1619772712130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ajout Traits-&gt;timestampable">
+      <created>1619786312249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619786312249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout Traits-&gt;timestampable">
+      <created>1619789699693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619789699693</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajout Traits-&gt;timestampable">
+      <created>1619789709625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619789709625</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ajout Traits-&gt;timestampable">
+      <created>1619789712415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619789712415</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial set of files" />
     <MESSAGE value="Add show page and navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add show page and navigation" />
+    <MESSAGE value="ajout Traits-&gt;timestampable" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout Traits-&gt;timestampable" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

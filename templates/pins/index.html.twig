@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title 'Panterest'%}
+{% block title 'Panterest' %}
 
 {% block body %}
 <h1>{{ pluralize(pins|length, 'pin') }} </h1>
@@ -11,3 +11,4 @@
         </article>
     {% endfor %}
 {% endblock %}
+
