@@ -155,6 +155,11 @@
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gdf38\Desktop\panterest\templates\layout" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -171,7 +176,7 @@
       <workItem from="1620217936280" duration="2123000" />
       <workItem from="1620290132820" duration="3912000" />
       <workItem from="1620295845233" duration="3098000" />
-      <workItem from="1620305459721" duration="1815000" />
+      <workItem from="1620305459721" duration="3767000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>
@@ -264,7 +269,35 @@
       <option name="project" value="LOCAL" />
       <updated>1620291265464</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add _form">
+      <created>1620307455224</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620307455224</updated>
+    </task>
+    <task id="LOCAL-00015" summary="utilisation u.truncate et KnpTime">
+      <created>1620307461635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620307461635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1620307538541</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620307538541</updated>
+    </task>
+    <task id="LOCAL-00017" summary="utilisation u.truncate et KnpTime">
+      <created>1620307550423</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620307550423</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,8 +321,10 @@
     <MESSAGE value="ajout Traits-&gt;timestampable" />
     <MESSAGE value="Add -&gt; create and edit" />
     <MESSAGE value="Add -&gt; _form" />
+    <MESSAGE value="add _form" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="utilisation u.truncate et KnpTime" />
+    <option name="LAST_COMMIT_MESSAGE" value="utilisation u.truncate et KnpTime" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
