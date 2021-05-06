@@ -21,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -132,6 +133,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rpvolNHa5AdXPJ67Tt2ejMOfiP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -161,7 +165,9 @@
       <workItem from="1619686045273" duration="3631000" />
       <workItem from="1619703582472" duration="4911000" />
       <workItem from="1619770934784" duration="7006000" />
-      <workItem from="1620196957916" duration="3507000" />
+      <workItem from="1620196957916" duration="8384000" />
+      <workItem from="1620217936280" duration="2123000" />
+      <workItem from="1620290132820" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>
@@ -212,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619789712415</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add -&gt; create and edit">
+      <created>1620200567775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620200567775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add -&gt; create and edit">
+      <created>1620200732583</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620200732583</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +254,8 @@
     <MESSAGE value="Add initial set of files" />
     <MESSAGE value="Add show page and navigation" />
     <MESSAGE value="ajout Traits-&gt;timestampable" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout Traits-&gt;timestampable" />
+    <MESSAGE value="Add -&gt; create and edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add -&gt; create and edit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

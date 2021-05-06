@@ -4,11 +4,10 @@ namespace App\Controller;
 
 
 use App\Entity\Pin;
+use App\Form\PinType;
 use App\Repository\PinRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Form\Extension\Core\Type\TextareaType;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -31,11 +30,7 @@ class PinsController extends AbstractController
     public function create(Request $request, EntityManagerInterface $em): Response{
 
         $pin = new Pin;
-        $form = $this->createFormBuilder($pin)
-                ->add('title', TextType::class)
-                ->add('description', TextareaType::class)
-                ->getForm()
-        ;
+        $form = $this->createForm(PinType::class, $pin);
 
         $form->handleRequest($request);
         if($form->isSubmitted() && $form->isValid()){
@@ -60,15 +55,13 @@ class PinsController extends AbstractController
     }
 
     /**
-     * @Route("/pins/{id<[0-9]+>}/edit", name="app_pins_edit", methods="GET|POST")
+     * @Route("/pins/{id<[0-9]+>}/edit", name="app_pins_edit", methods="GET|PUT")
      */
     public function edit(Request $request, EntityManagerInterface $em, Pin $pin):Response{
 
-        $form = $this->createFormBuilder($pin)
-            ->add('title', TextType::class)
-            ->add('description', TextareaType::class)
-            ->getForm()
-        ;
+        $form = $this->createForm(PinType::class, $pin, [
+            'method' => 'PUT'
+        ]);
 
         $form->handleRequest($request);
         if($form->isSubmitted() && $form->isValid()) {
@@ -84,7 +77,19 @@ class PinsController extends AbstractController
 
     }
 
+    /**
+     * @Route("/pins/{id<[0-9]+>}/delete", name="app_pins_delete", methods="DELETE")
+     */
+    public function delete(Request $request ,EntityManagerInterface $em, Pin $pin):Response
+    {
+        if ($this->isCsrfTokenValid('pin_deletion_'. $pin->getId(), $request->request->get('csrf_token') )){
+            $em->remove($pin);
+            $em->flush();
+        }
 
+
+        return $this->redirectToRoute('app_home');
+    }
 
 
 
