@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="fhichier twig" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -148,6 +149,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -179,7 +181,7 @@
       <workItem from="1620305459721" duration="5061000" />
       <workItem from="1620369779726" duration="885000" />
       <workItem from="1620370937439" duration="19000" />
-      <workItem from="1620370972801" duration="2413000" />
+      <workItem from="1620370972801" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>
