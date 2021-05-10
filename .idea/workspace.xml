@@ -18,6 +18,7 @@
       <list>
         <option value="fhichier twig" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -133,6 +134,7 @@
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/twig/string-extra" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1rpvolNHa5AdXPJ67Tt2ejMOfiP" />
@@ -149,9 +151,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="Push.Settings">
@@ -159,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gdf38\Desktop\panterest\public" />
       <recent name="C:\Users\gdf38\Desktop\panterest\templates\layout" />
     </key>
   </component>
@@ -181,7 +184,8 @@
       <workItem from="1620305459721" duration="5061000" />
       <workItem from="1620369779726" duration="885000" />
       <workItem from="1620370937439" duration="19000" />
-      <workItem from="1620370972801" duration="4609000" />
+      <workItem from="1620370972801" duration="12957000" />
+      <workItem from="1620629816977" duration="10956000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>

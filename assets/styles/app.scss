@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import "shared/variables";
+
+@import "~bootswatch/dist/lux/bootstrap.min.css";
+@import "~bootswatch/dist/lux/variables";
+@import "~bootswatch/dist/lux/bootswatch";
+
+
+body{
+   font-family: $primary-font, cursive;
+}
+.alert {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+
+    &.alert-success{
+        background-color: green;
+    }
+    &.alert-error{
+        background-color: #B0413E;
+    }
+    &.alert-info{
+        background-color: #5eb5e0;
+    }
+}
+
+
