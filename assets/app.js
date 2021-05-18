@@ -4,10 +4,15 @@
  * We recommend including the built version of this JavaScript file
  * (and its CSS file) in your base layout (base.html.twig).
  */
+
 // app.js
 
 // require jQuery normally
 const $ = require('jquery');
+$('.custom-file-input').on('change', function (e){
+    var inputFile = e.currentTarget;
+    $(inputFile).parent().find('.custom-file-label').html(inputFile.files[0].name);
+})
 
 // create global $ and jQuery variables
 global.$ = global.jQuery = $;
@@ -19,9 +24,6 @@ import "bootstrap";
 // start the Stimulus application
 
 
-$('.custom-file-input').on('change', function (e){
-    var inputfile = e.currentTarget;
-    $(inputFile).parent().find('.custom-file-label').html(inputFile.files[0].name);
-})
+
 
 
