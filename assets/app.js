@@ -15,9 +15,13 @@ global.$ = global.jQuery = $;
 // any CSS you import will output into a single css file (app.scss in this case)
 import './styles/app.scss';
 import "bootswatch/dist/lux/bootstrap.min.css";
+import "bootstrap";
 // start the Stimulus application
 
 
-
+$('.custom-file-input').on('change', function (e){
+    var inputfile = e.currentTarget;
+    $(inputFile).parent().find('.custom-file-label').html(inputFile.files[0].name);
+})
 
 
