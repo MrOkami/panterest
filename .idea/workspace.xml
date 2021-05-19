@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="da4cf156-8068-4c4d-bfd6-02bf9fe15cc3" name="Default Changelist" comment="Add initial set of files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Pin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Pin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,6 +162,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -210,7 +210,7 @@
       <workItem from="1621234459517" duration="4788000" />
       <workItem from="1621319445149" duration="1211000" />
       <workItem from="1621328309913" duration="13737000" />
-      <workItem from="1621406125114" duration="3875000" />
+      <workItem from="1621406125114" duration="10580000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>
