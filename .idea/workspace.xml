@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="da4cf156-8068-4c4d-bfd6-02bf9fe15cc3" name="Default Changelist" comment="Add initial set of files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pins/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twig/AppExtention.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/AppExtention.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pins/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pins/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +208,8 @@
       <workItem from="1621234266291" duration="178000" />
       <workItem from="1621234459517" duration="4788000" />
       <workItem from="1621319445149" duration="1211000" />
-      <workItem from="1621328309913" duration="13628000" />
+      <workItem from="1621328309913" duration="13737000" />
+      <workItem from="1621406125114" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1619708207456</created>
