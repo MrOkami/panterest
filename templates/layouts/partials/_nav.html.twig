@@ -10,7 +10,7 @@
         <div class="row">
                 <div class="collapse navbar-collapse" id="navbarColor02">
                         <ul class="navbar-nav ml-auto">
-
+                            {% if app.user %}
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ path('app_pins_create') }}">New Pin</a>
                                 </li>
@@ -18,8 +18,16 @@
                                     <a class="nav-link" href="#">Account</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Logout</a>
+                                    <a class="nav-link" href="{{ path('app_logout') }}">Logout</a>
                                 </li>
+                            {% else %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ path('app_login') }}">Login</a>
+                                </li>
+                            {% endif %}
                         </ul>
 
                 </div>
