@@ -7,6 +7,7 @@ use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\RepeatedType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Security\Core\Validator\Constraints\UserPassword;
 use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\Validator\Constraints\NotBlank;
 
@@ -14,7 +15,22 @@ class ChangePasswordFormType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
-        $builder
+        if ($options['current_password_is_required']){
+            $builder
+                ->add('currentPassword', PasswordType::class, [
+                    'label' => 'MPD actuel',
+                    'attr' => [
+                        'autocomplete' => 'off'
+                    ],
+                    'constraints' => [
+                        new NotBlank([
+                            'message' => 'Veuillez entré votre MDP.',
+                        ]),
+                        new UserPassword(),
+                    ]
+                ]);
+        }
+            $builder
             ->add('plainPassword', RepeatedType::class, [
                 'type' => PasswordType::class,
                 'first_options' => [
@@ -30,13 +46,13 @@ class ChangePasswordFormType extends AbstractType
                             'max' => 4096,
                         ]),
                     ],
-                    'label' => 'New password',
+                    'label' => 'Nouveau MDP',
                 ],
                 'second_options' => [
                     'attr' => ['autocomplete' => 'new-password'],
-                    'label' => 'Repeat Password',
+                    'label' => 'Confirmer le nouveau MDP',
                 ],
-                'invalid_message' => 'The password fields must match.',
+                'invalid_message' => 'Les 2 MDP ne correspondent pas.',
                 // Instead of being set onto the object directly,
                 // this is read and encoded in the controller
                 'mapped' => false,
@@ -46,6 +62,10 @@ class ChangePasswordFormType extends AbstractType
 
     public function configureOptions(OptionsResolver $resolver): void
     {
-        $resolver->setDefaults([]);
+        $resolver->setDefaults([
+            'current_password_is_required' => false
+        ]);
+
+        $resolver->setAllowedTypes('current_password_is_required', 'bool');
     }
 }
